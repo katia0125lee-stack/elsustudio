@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elsu Studio | Handmade Jewelry</title>
+<style>
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:Georgia,serif;
+color:#34302d;
+background:#faf8f5;
+}
+header{
+padding:25px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #e9e2da;
+}
+.logo{font-size:27px;letter-spacing:4px}
+nav a{
+margin-left:25px;
+text-decoration:none;
+color:#555;
+font-size:14px;
+}
+.hero{
+text-align:center;
+padding:110px 20px;
+background:#eee8df;
+}
+.hero h1{
+font-size:48px;
+font-weight:normal;
+letter-spacing:5px;
+}
+.hero p{
+font-size:17px;
+line-height:1.8;
+color:#74685e;
+}
+.button{
+display:inline-block;
+margin-top:25px;
+padding:14px 35px;
+background:#75675b;
+color:white;
+text-decoration:none;
+letter-spacing:2px;
+}
+section{
+padding:65px 8%;
+text-align:center;
+}
+h2{
+font-size:30px;
+font-weight:normal;
+letter-spacing:3px;
+}
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:40px;
+}
+.card{
+background:#eee8df;
+padding:55px 20px;
+}
+.card h3{font-weight:normal;font-size:21px}
+.card p{font-size:14px;color:#75675b}
+.about{
+background:#f0ebe5;
+line-height:1.9;
+}
+footer{
+padding:35px;
+text-align:center;
+background:#39332e;
+color:white;
+font-size:13px;
+}
+@media(max-width:600px){
+header{flex-direction:column;gap:18px}
+nav a{margin:0 8px}
+.hero h1{font-size:32px}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">ELSU STUDIO</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#collection">Collections</a>
+<a href="#about">Our Story</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<h1>Beauty in Every Detail</h1>
+<p>
+Handcrafted Jewelry. Timeless Beauty.<br>
+Designed with Creativity, Made with Love.
+</p>
+<a href="#collection" class="button">EXPLORE COLLECTION</a>
+</div>
+
+<section id="collection">
+<h2>OUR COLLECTIONS</h2>
+<p>Discover jewelry inspired by nature and individuality.</p>
+
+<div class="products">
+<div class="card">
+<h3>Crystal Jewelry</h3>
+<p>Natural crystals, unique energy and beauty.</p>
+</div>
+
+<div class="card">
+<h3>Pearl Collection</h3>
+<p>Elegant pearl accessories for every occasion.</p>
+</div>
+
+<div class="card">
+<h3>Custom Designs</h3>
+<p>Jewelry made to express your individuality.</p>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<h2>OUR STORY</h2>
+<p>
+Elsu Studio is an independent jewelry brand
+dedicated to handcrafted designs.
+
+Inspired by nature, art and everyday beauty,
+we create unique crystal jewelry and pearl accessories.
+
+Every piece is thoughtfully designed and handmade
+with love and attention to detail.
+</p>
+</section>
+
+<section id="contact">
+<h2>LET'S CONNECT</h2>
+<p>Discover our latest creations and follow our journey.</p>
+<a class="button" href="https://www.instagram.com/">FOLLOW US ON INSTAGRAM</a>
+</section>
+
+<footer>
+© 2026 Elsu Studio. All Rights Reserved.
+</footer>
+
+</body>
+</html>
